@@ -1,0 +1,90 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "font-principal";
+    src: url(font/Fonte_Principal/Cordel-Groteska.otf);
+}
+@font-face {
+    font-family: "font-sec";
+    src: url(font/Fonte_Secundarios/cordelina.otf);
+}
+:root{
+--fonte-principal:"font-principal";
+--fonte-secundario:"font-sec";
+}
+header{
+    display: block;
+    background-color: black;
+    height: 200px;
+}
+header > h1{
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 4em;
+    padding-top: 50px;
+    
+}
+header > p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+#link-milton{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section{
+    margin-top: 25px;
+}
+section > p{
+    font-family: var(--fonte-secundario);
+    font-size: 2.5em;
+}
+
+section#img1{
+    position: relative;
+    height: 800px;
+    background-image: url(images/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+.imagem > p{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    max-width: 43%;
+    transform: translate(0px, -50%);
+    top: 50%;
+}
+section#img2{
+    position: relative;
+    height: 800px;
+    background-image: url(images/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+.imagem2 > p{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    max-width: 43%;
+    transform: translate(0px, -50%);
+    top: 50%;
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+}
+footer > h3{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+}

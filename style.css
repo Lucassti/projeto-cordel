@@ -51,7 +51,7 @@ section{
 }
 section > p{
     font-family: var(--fonte-secundario);
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 section#img1{
@@ -63,10 +63,10 @@ section#img1{
 
 }
 .imagem > p{
+    display: inline-block;
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.39);
-    max-width: 43%;
     transform: translate(0px, -50%);
     top: 50%;
 }
@@ -78,10 +78,10 @@ section#img2{
     background-size: cover;
 }
 .imagem2 > p{
+    display: inline-block;
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.39);
-    max-width: 43%;
     transform: translate(0px, -50%);
     top: 50%;
 }

@@ -43,7 +43,11 @@ header > p{
     text-decoration: underline;
 }
 section{
-    margin-top: 25px;
+    /*margin-top: 25px;*/
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2.9em;
 }
 section > p{
     font-family: var(--fonte-secundario);

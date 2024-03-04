@@ -61,6 +61,7 @@ section#img1{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.432);
 
 }
 .imagem > p{
@@ -78,6 +79,7 @@ section#img2{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.432);
 }
 .imagem2 > p{
     display: inline-block;

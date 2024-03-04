@@ -56,7 +56,7 @@ section > p{
 
 section#img1{
     position: relative;
-    height: 800px;
+    height: 700px;
     background-image: url(images/background001.jpg);
     background-position: right center;
     background-size: cover;
@@ -74,7 +74,7 @@ section#img1{
 }
 section#img2{
     position: relative;
-    height: 800px;
+    height: 700px;
     background-image: url(images/background002.jpg);
     background-position: right center;
     background-size: cover;

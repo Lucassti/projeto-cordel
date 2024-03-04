@@ -51,7 +51,7 @@ section{
 }
 section > p{
     font-family: var(--fonte-secundario);
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 section#img1{
@@ -60,6 +60,7 @@ section#img1{
     background-image: url(images/background001.jpg);
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 .imagem > p{
@@ -76,6 +77,7 @@ section#img2{
     background-image: url(images/background002.jpg);
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .imagem2 > p{
     display: inline-block;

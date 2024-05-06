@@ -7,4 +7,4 @@ Trazendo também conceito de responsividade mobile ao projeto.
 
 ![image](https://github.com/Lucassti/projeto-cordel/assets/60820690/b15fc510-247e-4cc2-9910-8742ce4303f9)
 
-Projeto pode ser acessado <a href="https://lucassti.github.io/projeto-cordel/cordel.html"target="_blank">clicando aqui!</a>
+Projeto pode ser acessado <a href="https://lucassti.github.io/projeto-cordel/cordel.html" target="_blank">clicando aqui!</a>
